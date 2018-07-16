@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
+LC_ALL=C
+IFS=" "
+trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
+if [[ "$EUID" != "0" ]]; then
+	echo -e "\e[00;31mERROR: debe ser root.\e[00m"
+	exit 1
+fi
+opid="/var/run/openvpn.pid"
+olog="/var/log/ovpn.log"
+
+case "$1" in
+	instalar)
+		#ver=$(lsb_release -c | grep Codename: | awk '{print $2}')
+		wget -O- https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add -
+		echo "deb http://build.openvpn.net/debian/openvpn/release/2.4 xenial main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
+		apt -q update
+		apt -y install openvpn
+		apt clean
+		apt autoclean
+		echo "Finalizado."
+		;;
+
+	iniciar)
+		name=$(find -iname "*.ovpn" | sed 's/^.//g' | sed 's/^.//g')
+		if [[ -z "$name" ]]; then
+			echo "Error: no existe el archivo .ovpn correspondiente."
+			exit 1
+		fi
+		openvpn --writepid "$opid" --auth-nocache --mlock --config "$name" --daemon --log "$olog"
+		echo "Finalizado."
+		;;
+
+	detener)
+		if ! [[ -f "$opid" ]]; then
+			echo "Error: OpenVPN no se esta ejecutando."
+			exit 1
+		fi
+		killall -I -q openvpn
+		echo "Finalizado."
+		;;
+
+	*)
+		echo "uso: $(basename $0) {instalar|iniciar|detener}"
+		;;
+
+esac
+
+exit 0
