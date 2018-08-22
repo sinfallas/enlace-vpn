@@ -1,4 +1,16 @@
-commit e56992d38e3ecb3e6ee9fece8dbb0ed709949db1 (HEAD -> master, origin/master, origin/HEAD)
+commit a83cc1ba6c2c82f2cbeeb756a1dea0b2e604ede1 (HEAD -> master, origin/master, origin/HEAD)
+Author: jesus palencia <jesus.palencia@grupopro.com.ve>
+Date:   Wed Aug 22 12:36:08 2018 -0400
+
+    * se coloca verificacion de inicio de sesion
+
+commit 0fd213972648bb7d4db4227a29532bc3b9104c60
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Aug 21 21:58:34 2018 -0400
+
+    * changelog
+
+commit e56992d38e3ecb3e6ee9fece8dbb0ed709949db1
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Aug 21 21:58:16 2018 -0400
 
