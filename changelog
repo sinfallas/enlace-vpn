@@ -1,4 +1,16 @@
-commit 893ac4d08ea375a9e7890137abef0829c55f2817 (HEAD -> master, origin/master)
+commit e56992d38e3ecb3e6ee9fece8dbb0ed709949db1 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Aug 21 21:58:16 2018 -0400
+
+    * se colocan nuevos parametros
+
+commit 01e8d39eaa4cad2d5ca35897c99a7d490be457b6
+Author: jesus palencia <jesus.palencia@grupopro.com.ve>
+Date:   Mon Jul 16 09:19:11 2018 -0400
+
+    * changelog
+
+commit 893ac4d08ea375a9e7890137abef0829c55f2817
 Author: jesus palencia <jesus.palencia@grupopro.com.ve>
 Date:   Mon Jul 16 09:19:02 2018 -0400
 
