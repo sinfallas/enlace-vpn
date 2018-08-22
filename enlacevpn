@@ -29,7 +29,7 @@ case "$1" in
 			echo "Error: no existe el archivo .ovpn correspondiente."
 			exit 1
 		fi
-		openvpn --writepid "$opid" --auth-nocache --mlock --config "$name" --daemon --log "$olog"
+		openvpn --writepid "$opid" --auth-nocache --mlock --mtu-test --comp-lzo --topology subnet --fast-io --pull --config "$name" --daemon --log "$olog"
 		echo "Finalizado."
 		;;
 
