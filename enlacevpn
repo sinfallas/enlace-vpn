@@ -24,6 +24,10 @@ case "$1" in
 		;;
 
 	iniciar)
+		if [[ -f "$opid" ]]; then
+			echo "Error: OpenVPN ya se esta ejecutando."
+			exit 1
+		fi
 		name=$(find -iname "*.ovpn" | sed 's/^.//g' | sed 's/^.//g')
 		if [[ -z "$name" ]]; then
 			echo "Error: no existe el archivo .ovpn correspondiente."
