@@ -1,4 +1,16 @@
-commit a83cc1ba6c2c82f2cbeeb756a1dea0b2e604ede1 (HEAD -> master, origin/master, origin/HEAD)
+commit faf2ad8bca90bef10239a80e01c3c93e9d857f40 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Aug 22 20:31:38 2018 -0400
+
+    * se elimina el archivo del pid al finalizar
+
+commit a4eaffe6c5ffa202d2d87b44ad692104afd80b28
+Author: jesus palencia <jesus.palencia@grupopro.com.ve>
+Date:   Wed Aug 22 12:36:22 2018 -0400
+
+    * changelog
+
+commit a83cc1ba6c2c82f2cbeeb756a1dea0b2e604ede1
 Author: jesus palencia <jesus.palencia@grupopro.com.ve>
 Date:   Wed Aug 22 12:36:08 2018 -0400
 
