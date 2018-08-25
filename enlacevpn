@@ -33,7 +33,7 @@ case "$1" in
 			echo "Error: no existe el archivo .ovpn correspondiente."
 			exit 1
 		fi
-		openvpn --writepid "$opid" --auth-nocache --mlock --mtu-test --comp-lzo --topology subnet --fast-io --pull --config "$name" --daemon --log "$olog"
+		openvpn --script-security 2 --writepid "$opid" --auth-nocache --mlock --mtu-test --comp-lzo --topology subnet --fast-io --pull --config "$name" --up /etc/openvpn/update-resolv-conf --down /etc/openvpn/update-resolv-conf --down-pre
 		echo "Finalizado."
 		;;
 
