@@ -1,4 +1,16 @@
-commit faf2ad8bca90bef10239a80e01c3c93e9d857f40 (HEAD -> master, origin/master, origin/HEAD)
+commit 7f7053d8e41731a52fdefbea6ceab1b9e9fcd9fb (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Aug 25 08:53:49 2018 -0400
+
+    * se configuran los dns en ubuntu
+
+commit 066a1e1b48c40b1f479af3bc9c6f5bce300b3017
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Aug 22 20:32:00 2018 -0400
+
+    * changelog
+
+commit faf2ad8bca90bef10239a80e01c3c93e9d857f40
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Aug 22 20:31:38 2018 -0400
 
