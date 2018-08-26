@@ -1,4 +1,17 @@
-commit 7f7053d8e41731a52fdefbea6ceab1b9e9fcd9fb (HEAD -> master, origin/master, origin/HEAD)
+commit b5720943fb5ffc920dcfe715d670fed5112aa8fe (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Aug 25 09:12:03 2018 -0400
+
+    * se establece ping
+    * se desactivan privilegios de root
+
+commit f8206ce8798323e7d964f33cc5214c944843d2ec
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Aug 25 08:54:05 2018 -0400
+
+    * changelog
+
+commit 7f7053d8e41731a52fdefbea6ceab1b9e9fcd9fb
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Aug 25 08:53:49 2018 -0400
 
