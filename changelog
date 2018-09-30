@@ -1,4 +1,10 @@
-commit b5720943fb5ffc920dcfe715d670fed5112aa8fe (HEAD -> master, origin/master, origin/HEAD)
+commit 9bf6dbc1e3c1d99ca12cb99a12e3fdc99fa5e95d (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Aug 26 13:10:18 2018 -0400
+
+    * changelog
+
+commit b5720943fb5ffc920dcfe715d670fed5112aa8fe
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Aug 25 09:12:03 2018 -0400
 
