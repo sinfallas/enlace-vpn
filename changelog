@@ -1,4 +1,16 @@
-commit 9bf6dbc1e3c1d99ca12cb99a12e3fdc99fa5e95d (HEAD -> master, origin/master, origin/HEAD)
+commit cd3f4574589edb254d568778833a75c07bf53a33 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jun 23 10:20:23 2019 -0400
+
+    * se limpia para poder colocar publico
+
+commit d6d6a3ea64011d28456eaed7b523f1eb93f15789
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Sep 30 13:26:26 2018 -0400
+
+    * changelog
+
+commit 9bf6dbc1e3c1d99ca12cb99a12e3fdc99fa5e95d
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Aug 26 13:10:18 2018 -0400
 
